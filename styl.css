@@ -1,0 +1,25 @@
+body {
+  background-color: rgba(0, 0, 0, 0.507);
+}
+body .box {
+  color: blanchedalmond;
+  background-color: rebeccapurple;
+  margin: 20px;
+  padding: 20px;
+}
+body .box input {
+  height: 40px;
+  width: 500px;
+}
+body .red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+body .green {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+/*# sourceMappingURL=styl.css.map */

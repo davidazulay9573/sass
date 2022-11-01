@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(0, 0, 0, 0.507);
+    .box{
+        color: blanchedalmond;
+        background-color:rebeccapurple;
+        margin: 20px;
+        padding: 20px;
+        input{
+              height: 40px;
+               width: 500px;
+        }
+    }
+    @mixin fn($colory:red) {
+        height: 100px;
+        width: 100px;
+        background-color: $colory;
+      text-align: center;
+    }
+   .red{
+       @include fn($colory:red)
+    }
+    .green{
+        @include fn($colory:green)
+    }
+}
+
